@@ -121,7 +121,7 @@ TASKS = [
 
 MASTER_COPIES: Dict[EthereumNetwork, List[Tuple[str, int, str]]] = {
     EthereumNetwork.LACHAIN_TESTNET: [
-        ("0x04849aB457ea666663Df6dd2C63839b3dB44A9b5", 6_244_411, "1.3.0+L2"),
+        ("0xF97BFD53F1BE6058EF5d39869F47B0987e540c09", 6_244_411, "1.3.0+L2"),
     ],
     EthereumNetwork.MAINNET: [
         ("0x3E5c63644E683549055b9Be8653de26E0B4CD36E", 12504423, "1.3.0+L2"),
