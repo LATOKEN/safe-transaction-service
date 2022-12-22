@@ -121,7 +121,7 @@ TASKS = [
 
 MASTER_COPIES: Dict[EthereumNetwork, List[Tuple[str, int, str]]] = {
     EthereumNetwork.LACHAIN_TESTNET: [
-        ("0x58cf4D1A611164b6E582d867f3975f19a2B6887b", 6_244_411, "1.3.0+L2"),
+        ("0x27E8d3369d422F89bD00545617b7f9F359bB8695", 6_244_411, "1.3.0+L2"),
     ],
     EthereumNetwork.MAINNET: [
         ("0x3E5c63644E683549055b9Be8653de26E0B4CD36E", 12504423, "1.3.0+L2"),
@@ -339,7 +339,7 @@ MASTER_COPIES: Dict[EthereumNetwork, List[Tuple[str, int, str]]] = {
 
 PROXY_FACTORIES: Dict[EthereumNetwork, List[Tuple[str, int]]] = {
     EthereumNetwork.LACHAIN_TESTNET: [
-        ("0x6201f7686B24fbb725315Aa0B3D967743D7732fB", 6_244_411), # v1.3.0
+        ("0xa9E77dB68cA52F5af18F352e425d1c1699e871c8", 6_244_411), # v1.3.0
     ],
     EthereumNetwork.MAINNET: [
         ("0xa6B71E26C5e0845f74c812102Ca7114b6a896AB2", 12504126),  # v1.3.0
